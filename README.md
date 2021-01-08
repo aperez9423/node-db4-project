@@ -12,7 +12,7 @@ Follow these steps to set up and work on your project:
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push -u origin `<firstName-lastName>`.
 
-### Task 2: Minimum Viable Product
+### Task 2: Minimum Viable Product DONE
 
 Design the **data model** for a _recipe book_ application, then use `Knex migrations and seeding` functionality to build a `SQLite3` database based on the model and seed it with test data.
 
@@ -26,12 +26,12 @@ The requirements for the system, as stated by the client are:
 
 **Hint**: Before writing any code, write out all desired tables in the data model and determine all relationships between tables. 
 
-### Migrations and Seeds
+### Migrations and Seeds DONE
 
 - Write a migration file that creates all tables necessary to model this data
 - Write seed files to populate the tables with test data. **Hint**: Keep your recipes *very* simple or this step could become extremely time consuming.
 
-### Data Access
+### Data Access DONE
 
 In addition to the `migrations` and `seeding` scripts, write a data access file that **exports** an object with the following functions:
 
